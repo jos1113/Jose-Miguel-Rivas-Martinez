@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>José Rivas – Automatización y Robótica Industrial</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    /* Reset */
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: 'Inter', sans-serif; background: #f0f4f8; color: #333; line-height: 1.6; }
+
+    /* Header */
+    header { 
+        background: linear-gradient(135deg, #1a73e8, #00c6ff); 
+        color: white; 
+        text-align: center; 
+        padding: 80px 20px; 
+    }
+    header h1 { font-size: 3em; margin-bottom: 10px; }
+    header p { font-size: 1.2em; opacity: 0.9; }
+
+    /* Section styles */
+    section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+    section h2 { color: #1a73e8; margin-bottom: 30px; font-size: 2em; text-align: center; }
+
+    /* Skills */
+    .skills { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+    .skill { background: white; padding: 20px 25px; border-radius: 12px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); display: flex; align-items: center; gap: 10px; font-weight: 600; transition: transform 0.3s; }
+    .skill:hover { transform: translateY(-5px); }
+
+    /* Projects */
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
+    .project { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 6px 15px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; }
+    .project img { width: 100%; display: block; }
+    .project h3 { padding: 15px 20px 0 20px; }
+    .project p { padding: 0 20px 20px 20px; opacity: 0.9; }
+    .project:hover { transform: translateY(-8px); box-shadow: 0 10px 25px rgba(0,0,0,0.15); }
+
+    /* Contact */
+    .contact p { text-align: center; margin-bottom: 10px; }
+    .contact a { color: #1a73e8; text-decoration: none; font-weight: 600; }
+    .contact a:hover { text-decoration: underline; }
+
+    /* Footer */
+    footer { background: #1a73e8; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+
+    /* Icons */
+    .skill::before { content: '⚙️'; }
+
+</style>
+</head>
+<body>
+
+<header>
+    <h1>José Rivas</h1>
+    <p>Automatización y Robótica Industrial | Innovación en Minería</p>
+</header>
+
+<section id="about">
+    <h2>Sobre mí</h2>
+    <p style="max-width: 800px; margin: auto; text-align: center;">
+        Ingeniero en Automatización y Robótica Industrial con experiencia en PLC, Python, ROS2, SCADA, CAD e IoT. Apasionado por mejorar la eficiencia y seguridad en minería mediante soluciones de automatización avanzadas.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Habilidades</h2>
+    <div class="skills">
+        <div class="skill">PLC Siemens TIA Portal</div>
+        <div class="skill">Python & ROS2</div>
+        <div class="skill">IoT & Sensórica</div>
+        <div class="skill">SCADA WinCC</div>
+        <div class="skill">CAD Fusion 360</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Proyectos</h2>
+    <div class="projects">
+        <div class="project">
+            <img src="proyecto1.jpg" alt="Proyecto 1">
+            <h3>Automatización de Cinta Transportadora</h3>
+            <p>Implementación de PLC Siemens y sensores IoT para optimizar la eficiencia de una línea de producción.</p>
+        </div>
+        <div class="project">
+            <img src="proyecto2.jpg" alt="Proyecto 2">
+            <h3>Robot Autónomo para Minería</h3>
+            <p>Desarrollo de robot autónomo con ROS2 para inspección y transporte seguro en minas subterráneas.</p>
+        </div>
+        <!-- Añade más proyectos aquí -->
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contacto</h2>
+    <div class="contact">
+        <p>Email: <a href="mailto:tuemail@ejemplo.com">tuemail@ejemplo.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/tuperfil" target="_blank">linkedin.com/in/tuperfil</a></p>
+        <p>GitHub: <a href="https://github.com/joserivas" target="_blank">github.com/joserivas</a></p>
+        <p><a href="CV.pdf" target="_blank">Descargar CV</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 José Rivas | Automatización y Robótica Industrial</p>
+</footer>
+
+</body>
+</html>
